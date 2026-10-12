@@ -33,7 +33,15 @@ The full write-up is `results/vision-bakeoff.md`.
 
 ## Results
 
-See `results/vision-bakeoff.md` and `charts/vision-scoreboard.jpg`.
+Two separate bake-offs, split by privacy tier — because a private model is required the moment the
+images contain personal data, and an anonymized model is fine (and usually cheaper) otherwise:
+
+- **`bakeoff-vision-default`** — anonymized models, for non-personal images (film frames, game art,
+  charts). `results/bakeoff-vision-default/bakeoff-vision-default.jsonl`
+- **`bakeoff-vision-private`** — private-tier models, for personal images (photos, screenshots,
+  anything from your own life). `results/bakeoff-vision-private/bakeoff-vision-private.jsonl`
+
+Full write-up: `results/vision-bakeoff.md`. Scoreboard: `charts/vision-scoreboard.jpg`.
 
 **Headline finding:** the model that "kept failing" in production was the *cheapest* one — fastest on
 small images, but **47 s on a large image** against a 60 s timeout, with no fallback. A model costing
@@ -62,10 +70,14 @@ too. A `429` is recorded as an `error` row, not a crash — re-run to fill gaps.
 
 ## Models tested
 
-Cheap tier: `qwen-3-8-flash`, `qwen-3-8-27b`, `z-ai-glm-5-3-flash`, `deepseek-v4-1-flash`,
-`xiaomi-mimo-v2-6-flash`, `luna`. Expensive tier: `claude-sonnet-5-5`, `openai-gpt-61-sol`.
-Privacy tags (`private` / `anonymized`) are recorded per model — a private model is required if the
-images ever contain personal data.
+**Default (anonymized) tier:** `qwen-3-8-flash`, `claude-sonnet-5-5`, `openai-gpt-6-luna`,
+`openai-gpt-61-sol`.
+
+**Private tier:** `qwen-3-8-27b`, `z-ai-glm-5-3-flash`, `xiaomi-mimo-v2-6-flash`,
+`deepseek-v4-1-flash`, `qwen3-vl-235b-a22b`.
+
+Privacy tags are recorded per model. If the images ever contain personal data, only the private tier
+is eligible — an anonymized model can never serve a personal image.
 
 ## License
 
