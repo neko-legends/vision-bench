@@ -1,0 +1,5 @@
+=== gpt-image-2-5-sunburst/crawl-stopmotion/001-laika-style-stop-motion-animation-still-.png
+STYLE: 8/10 — Convincing puppet kids and tactile miniature set; ghost looks more photorealistic than Laika-stylized.
+CONTENT: 9/10 — Wet-haired ghost halfway out of CRT; screaming white girl correct; Black boy’s leap and Asian boy’s faint read somewhat ambiguously.
+DEFECTS: No obvious extra limbs, duplicate faces, merged bodies, or stray text; ghost’s hands look stiff.
+VERDICT: Strong overall match, but inconsistent character styling and less decisive reaction poses prevent a perfect hit.

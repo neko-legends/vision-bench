@@ -1,0 +1,5 @@
+=== gpt-image-2-5-sunburst/crawl-anime/001-2d-anime-film-still-makoto-shinkai-adjac.png
+STYLE: 9/10 — Convincing 2D painterly anime; expressive drawings and richly painted backgrounds.
+CONTENT: 9/10 — Wet-haired ghost halfway out of CRT; three kids’ reactions match, but fleeing boy vaults the couch back, not arm.
+DEFECTS: No obvious anatomical errors, extra limbs/faces, merged bodies, or text artifacts.
+VERDICT: Strong match overall; the escape choreography is the clearest mismatch.

@@ -1,0 +1,5 @@
+=== gpt-image-2-5-sunburst/sheet-anime/001-2d-anime-film-still-makoto-shinkai-adjac.png
+STYLE: 7/10 — painterly, but more semi-realistic concept art than anime film still.
+CONSISTENCY: 8/10 — recognizable same child; hair length and dress silhouette drift.
+DEFECTS: Middle view too close to profile; hair becomes tangled/wispy rather than straight.
+VERDICT: Strong ghost-girl design, but not a precise style or turnaround match.
